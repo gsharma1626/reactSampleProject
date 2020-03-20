@@ -1,0 +1,38 @@
+body{
+  background-color: skyblue;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color:none;
+  margin-top: -80px;
+  margin-left: 250px;
+  margin-right: 150px;
+}
+
+.flex-container > div {
+  background-color: rgb(8, 8, 8);
+  color: rgb(252, 248, 248);
+  width: 100px;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  border-radius:5px;
+  font-size: 15px;
+}
+.logoga{
+width: 150px;
+height: 70px;
+margin-top: 5px;
+margin-bottom: 15px;
+margin-left:15px;
+border-radius:5px;
+filter: brightness(150%);
+}
+.contentmain{
+  background-color: rgb(8, 8, 8);
+  
+}
+.loginaa{
+  margin-left:115px;
+}

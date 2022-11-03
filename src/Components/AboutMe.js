@@ -5,8 +5,8 @@ const adddata = React.useContext(addresDetails);
     return(
 
         <>
-        <h1>{props.name}</h1>
-        <h1>{adddata}</h1>
+        <h4>The below data is coming from context API with the help of useContext hook.</h4>
+        <p>{adddata}</p>
         </>
     )
 }

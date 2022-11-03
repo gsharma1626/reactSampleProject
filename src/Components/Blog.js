@@ -1,15 +1,15 @@
 import React, {useContext, useState} from 'react';
-import {ContextData} from '../AppData'
+
 
 function Blog(){
     const[name,numberOne] = useState("Gaurav");
-    const[secondname,numberTwo] = useState("Avni");
+    const[secondname,numberTwo] = useState("Sharma");
     const myRef = React.useRef(null);
     const myRef1 = React.useRef(null);
-    const data = useContext(ContextData);
+    
     const handleClick = () => {
-        numberOne("Sharma");
-        numberTwo("Kaushik");
+        numberOne("I am anuseRef hook-1");
+        numberTwo("I am an useRef hook-2");
         myRef.current.style.color="red";
         myRef1.current.style.color="yellow";
     };
@@ -17,11 +17,11 @@ function Blog(){
 
         return(
             <React.Fragment>
-                <h1 ref={myRef}>My name : {name}</h1>
-                <h1 ref={myRef1}>Babu name : {secondname}</h1>
-                <button onClick={handleClick} type="button" >Change</button>
-                
-                        <h1>{data}</h1>
+                <h4>I Implemented "useRef" and click event in the below data.</h4>
+                <h5 ref={myRef}>My First Name : {name}</h5>
+                <h5 ref={myRef1}>My Second Name : {secondname}</h5>
+                <button onClick={handleClick} type="button" >Click Me</button>
+            
  
             </React.Fragment>
         ) ;

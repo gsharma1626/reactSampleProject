@@ -1,18 +1,19 @@
 import React from 'react';
 import App from './App';
-export const ContextData = React.createContext();
+
 export const addresDetails = React.createContext();
 const Appdata =()=>{
-    const[blogData, setBlogData]= React.useState('Gaurav Kumar Sharma');
-    const[blogDetails, setBlogDetails]= React.useState('Shergarh');
+    
+    const[blogDetails, setBlogDetails]= React.useState(`Hi, this is Gaurav. I have 8+ years of experience.
+    I am currently working with IBM as a Senior System`);
     return(
 
         <>
-        <ContextData.Provider value={blogData}>
+       
             <addresDetails.Provider value={blogDetails}>
             <App/>
             </addresDetails.Provider>
-            </ContextData.Provider>
+            
         
         </>
     )

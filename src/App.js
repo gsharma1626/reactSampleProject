@@ -18,7 +18,7 @@ const[myName, setMyName] = React.useState('Gaurav Kumar Sharma');
 <Route path ='/' element={<AppLayout/>}>
   <Route index element={<Home/>}/>
   <Route path ='/blog' element={<Blog/>}/>
-  <Route path ='/AboutMe' element={<AboutMe name ={myName}/>}/>
+  <Route path ='/AboutMe' element={<AboutMe/>}/>
   <Route path="/Contact" element ={<Contact/>}/>
   <Route path ="*" element ={<NoPage/>}/>
 </Route>

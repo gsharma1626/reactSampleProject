@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Mr.",
+      "Name": "Gaurav",
+      "gender": "Male",
+      "location":"India",
+      "Contact": 100000001
+    },
+    {
+      "id": 2,
+      "title": "Mrs.",
+      "Name": "Alexa",
+      "gender": "Female",
+      "location":"USA",
+      "Contact": 100000002
+    },
+    {
+      "id": 3,
+      "title": "Miss",
+      "Name": "Siri",
+      "gender": "Female",
+      "location":"USA",
+      "Contact": 100000003
+    },
+    {
+      "id": 4,
+      "title": "Senior Developer",
+      "Name": "Ok Google",
+      "gender": "Male",
+      "location":"USA",
+      "Contact": 100000004
+    }
+  ]
+}

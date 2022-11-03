@@ -14,21 +14,6 @@ React.useEffect(() => {
     console.log('Error getting fake data: ' + error);
     })
     }, []);
-// React.useEffect(()=>{
-//     getFakeData();
-//     // console.log(Mydata);
-// })
-
-// async function getFakeData(){
-//     try{
-// const fakeData = await axios.get('https://jsonplaceholder.typicode.com/albums/1/photos');
-// setAllData(fakeData.data);
-//     setFilteredData(fakeData.data);
-//     }
-//     catch(error){
-//         console.log("There is some erron in the code");
-//     }
-// }
     const handleSearch = (event) => {
         let value = event.target.value.toLowerCase();
         let result = [];

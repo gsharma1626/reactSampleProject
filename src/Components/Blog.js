@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useState} from 'react';
 
 
 function Blog(){
@@ -8,7 +8,7 @@ function Blog(){
     const myRef1 = React.useRef(null);
     
     const handleClick = () => {
-        numberOne("I am anuseRef hook-1");
+        numberOne("I am an useRef hook-1");
         numberTwo("I am an useRef hook-2");
         myRef.current.style.color="red";
         myRef1.current.style.color="yellow";

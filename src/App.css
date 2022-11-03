@@ -20,6 +20,9 @@ body{
   border-radius:5px;
   font-size: 15px;
 }
+.flex-container > div > Link{
+  color: rgb(252, 248, 248);
+}
 .logoga{
 width: 150px;
 height: 70px;

@@ -16,8 +16,8 @@ const datac = useCustomeData();
         <li>Worked on Functional Component</li>
         <li>Implemented React Hooks(UseState,useContext,useEffect,useRef,useMemo)</li>
         <li>Implemented routing</li>
-        <li>Implemneted Json server for fetching sample API</li>
-        <li>Iimplmneted axios</li>
+        <li>Implemneted Json server for creating sample API</li>
+        <li>Iimplmneted axios for fetching APIs from JSON server</li>
         </ol>
         <h4>My Counter : {datac.counting}</h4>
         <button onClick={datac.handleData}>Plus</button>
